@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: #ffffff;
+}
+
+.fuentes {
+    font-size: 1rem;
+    padding-left: 3rem;
+    text-transform: uppercase;
+}
+
+.fuentes li a:hover {
+    background-color: #3C6E71;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.menu {
+    margin-right: 1rem;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+/** Home **/
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #284B63;
+    color: #ffffff;
+    
+}
+
+.imgcarousel {
+    height: 500px;
+    object-fit: cover;
+}
+
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    margin: 10px 0 10px 0;
+}
+
+p {
+    margin-bottom: 24px;
+}
+
+.comienzaCompra {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #3C6E71;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comienzaCompra:hover {
+    background-color: #58A2A7;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+    background-color: #284B63;
+    color: #ffffff;
+}
+
+
+.imgEventos {
+    height: 10rem;
+    margin: 2rem;
+    width: 20rem;
+    object-fit: contain;
+    
+}
+
+.fuenteFooter {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+
+/** Productos **/
+
+
+.card {
+    height: 30rem;
+    width: 25rem;
+    margin-top: 3rem;
+    background-color: #353535;
+    color: #ffffff;
+    
+    
+}
+
+.imgProductos {
+    margin-top: 5px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.colorBtn {
+    background-color: #3C6E71;
+    color: #ffffff;
+}
+
+.colorBtn:hover {
+    background-color: #58A2A7;
+}
+
+/** reservas **/
+
+.descuentos {
+    background-color: #284B63;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    margin: 10px 3px 0 300px;
+    font-size: 18px;
+    border-radius: 3px;
+    font-weight: bold;
+
+}
+
+
+.precios {
+    display: flex;
+}
+
+
+.segundoPrecio {
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/** contacto **/
+
+.botonFormulario {
+    background-color: #3C6E71;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 8px;
+    border: none;
+
+}
+
+.botonFormulario:hover {
+    background-color: #58A2A7;
+}
+
+.logoContacto {
+    height: 100px;
+    margin: 20px 0 20px 0;
+}
+
+.redes {
+    text-align: center;
+}
+
+.facebook {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    color: blue;
+}
+
+.instagram {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    color: darkmagenta;
+}
+
+.tiktok {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.mapa {
+    padding: 0;
+    margin-bottom: -10px;
+    margin-top: 30px;
+  }
+  
+.mapa iframe {
+    width: 100%;
+    height: 380px;
+  }
+
+
+ .registro {
+    display: flex;
+ } 
+
+ .formRegistro {
+    margin-left: 70px;
+ }
+
+ .olvidoContraseña {
+    color: black;
+    margin-left: 30px;
+ }
+
+ .pCuenta {
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+ }
+ 
+ .banner {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+    object-fit: cover;
+ }
